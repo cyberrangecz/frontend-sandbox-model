@@ -8,11 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-library": "ng build --prod kypo2-model",
-    "pack": "cd dist/kypo2-model && npm pack",
+    "build-library": "ng build --prod kypo2-sandbox-model",
+    "pack": "cd dist/kypo2-sandbox-model && npm pack",
     "generate-package": "npm install && npm run build-library && npm run pack",
-    "publish": "npm run generate-package && cd dist/kypo2-model &&  npm publish --registry=http://kypo-storage.ics.muni.cz:8081/repository/npm-hosted"
-
+    "publish": "npm run generate-package && cd dist/kypo2-sandbox-model &&  npm publish --registry=http://kypo-storage.ics.muni.cz:8081/repository/npm-hosted"
   },
   "private": true,
   "dependencies": {
