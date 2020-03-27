@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "kypo-sandbox-model": [
+        "dist/kypo-sandbox-model/kypo-sandbox-model",
+        "dist/kypo-sandbox-model"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

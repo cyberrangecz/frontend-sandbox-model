@@ -7,7 +7,12 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-library": "ng build --prod kypo2-model",
+    "pack": "cd dist/kypo2-model && npm pack",
+    "generate-package": "npm install && npm run build-library && npm run pack",
+    "publish": "npm run generate-package && cd dist/kypo2-model &&  npm publish --registry=http://kypo-storage.ics.muni.cz:8081/repository/npm-hosted"
+
   },
   "private": true,
   "dependencies": {
@@ -19,11 +24,14 @@
     "@angular/platform-browser": "~9.0.6",
     "@angular/platform-browser-dynamic": "~9.0.6",
     "@angular/router": "~9.0.6",
+    "kypo-common": "9.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.900.7",
+    "@angular-devkit/build-ng-packagr": "~0.900.7",
     "@angular/cli": "~9.0.6",
     "@angular/compiler-cli": "~9.0.6",
     "@angular/language-service": "~9.0.6",
@@ -38,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
+    "ng-packagr": "^9.0.0",
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
