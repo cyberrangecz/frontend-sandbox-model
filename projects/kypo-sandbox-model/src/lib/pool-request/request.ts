@@ -1,4 +1,4 @@
-import {KypoDateTimeFormatPipe} from 'kypo-common';
+import { KypoDateTimeFormatPipe } from 'kypo-common';
 
 /**
  * Class representing pool request

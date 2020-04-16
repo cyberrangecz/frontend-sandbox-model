@@ -3,7 +3,6 @@
  */
 
 export class Pool {
-
   private _lockId: number;
   private _usedSize: number;
   private _maxSize: number;
@@ -14,7 +13,7 @@ export class Pool {
 
   set maxSize(value: number) {
     this._maxSize = value;
-    this.usedAndMaxSize = `${this.usedSize}/${this.maxSize}`
+    this.usedAndMaxSize = `${this.usedSize}/${this.maxSize}`;
   }
 
   get usedSize(): number {
@@ -23,7 +22,7 @@ export class Pool {
 
   set usedSize(value: number) {
     this._usedSize = value;
-    this.usedAndMaxSize = `${this.usedSize}/${this.maxSize}`
+    this.usedAndMaxSize = `${this.usedSize}/${this.maxSize}`;
   }
 
   get lockId(): number {
@@ -52,5 +51,4 @@ export class Pool {
   isEmpty(): boolean {
     return this._usedSize === 0;
   }
-
 }
