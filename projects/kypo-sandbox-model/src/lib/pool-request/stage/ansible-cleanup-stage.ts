@@ -1,5 +1,5 @@
-import {CleanupRequestStage} from './cleanup-request-stage';
-import {RequestStageType} from '../../enums/request-stage-type.enum';
+import { RequestStageType } from '../../enums/request-stage-type.enum';
+import { CleanupRequestStage } from './cleanup-request-stage';
 
 export class AnsibleCleanupStage extends CleanupRequestStage {
   allocationStageId: number;

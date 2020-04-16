@@ -1,5 +1,3 @@
-import {RequestStage} from './request-stage';
+import { RequestStage } from './request-stage';
 
-export class AllocationRequestStage extends RequestStage {
-
-}
+export class AllocationRequestStage extends RequestStage {}

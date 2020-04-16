@@ -1,11 +1,10 @@
 /**
  * Class representing request stage
  */
-import {RequestStageType} from '../../enums/request-stage-type.enum';
-import {RequestStageState} from '../../enums/request-stage-state.enum';
+import { RequestStageState } from '../../enums/request-stage-state.enum';
+import { RequestStageType } from '../../enums/request-stage-type.enum';
 
 export abstract class RequestStage {
-
   readonly type: RequestStageType;
   id: number;
   requestId: number;
@@ -33,5 +32,4 @@ export abstract class RequestStage {
   hasFinished() {
     return this.state === RequestStageState.FINISHED;
   }
-
 }
