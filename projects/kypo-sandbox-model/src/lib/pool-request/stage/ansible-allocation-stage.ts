@@ -8,13 +8,8 @@ import { AllocationRequestStage } from './allocation-request-stage';
 export class AnsibleAllocationStage extends AllocationRequestStage {
   repoUrl: string;
   rev: string;
-  output: KypoPaginatedResource<string>;
 
   constructor() {
     super(RequestStageType.ANSIBLE_ALLOCATION);
-  }
-
-  hasOutput(): boolean {
-    return this.output && this.output.elements.length > 0;
   }
 }
