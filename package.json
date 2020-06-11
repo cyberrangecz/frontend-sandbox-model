@@ -10,8 +10,7 @@
     "e2e": "ng e2e",
     "build-library": "ng build --prod kypo-sandbox-model",
     "pack": "cd dist/kypo-sandbox-model && npm pack",
-    "generate-package": "npm install && npm run build-library && npm run pack",
-    "publish": "npm run generate-package && cd dist/kypo-sandbox-model &&  npm publish --registry=http://kypo-storage.ics.muni.cz:8081/repository/npm-hosted"
+    "build-and-pack": "npm install && npm run build-library && npm run pack"
   },
   "husky": {
     "hooks": {
