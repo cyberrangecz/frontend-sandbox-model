@@ -9,6 +9,6 @@ export class OpenStackAllocationStage extends AllocationRequestStage {
   statusReason: string;
 
   constructor() {
-    super(RequestStageType.OPENSTACK_ALLOCATION);
+    super(RequestStageType.OPEN_STACK_ALLOCATION);
   }
 }

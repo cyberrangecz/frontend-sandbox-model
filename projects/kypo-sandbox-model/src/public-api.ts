@@ -19,13 +19,15 @@ export { CleanupRequest } from './lib/pool-request/cleanup-request';
 
 // POOL REQUEST STAGES
 export { AllocationRequestStage } from './lib/pool-request/stage/allocation-request-stage';
-export { AnsibleAllocationStage } from './lib/pool-request/stage/ansible-allocation-stage';
-export { AnsibleCleanupStage } from './lib/pool-request/stage/ansible-cleanup-stage';
+export { NetworkingAnsibleAllocationStage } from './lib/pool-request/stage/networking-ansible-allocation-stage';
+export { NetworkingAnsibleCleanupStage } from './lib/pool-request/stage/networking-ansible-cleanup-stage';
+export { UserAnsibleAllocationStage } from './lib/pool-request/stage/user-ansible-allocation-stage';
+export { UserAnsibleCleanupStage } from './lib/pool-request/stage/user-ansible-cleanup-stage';
 export { CleanupRequestStage } from './lib/pool-request/stage/cleanup-request-stage';
 export { OpenStackAllocationStage } from './lib/pool-request/stage/open-stack-allocation-stage';
 export { OpenStackCleanupStage } from './lib/pool-request/stage/open-stack-cleanup-stage';
-export { OpenstackEvent } from './lib/pool-request/stage/openstack-event';
-export { OpenstackResource } from './lib/pool-request/stage/openstack-resource';
+export { OpenStackEvent } from './lib/pool-request/stage/open-stack-event';
+export { OpenStackResource } from './lib/pool-request/stage/open-stack-resource';
 export { RequestStage } from './lib/pool-request/stage/request-stage';
 
 // SANDBOX INSTANCE
