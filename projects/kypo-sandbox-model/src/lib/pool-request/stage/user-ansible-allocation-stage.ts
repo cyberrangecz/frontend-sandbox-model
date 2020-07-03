@@ -5,11 +5,11 @@ import { AllocationRequestStage } from './allocation-request-stage';
 /**
  * Class representing ansible stage
  */
-export class AnsibleAllocationStage extends AllocationRequestStage {
+export class UserAnsibleAllocationStage extends AllocationRequestStage {
   repoUrl: string;
   rev: string;
 
   constructor() {
-    super(RequestStageType.ANSIBLE_ALLOCATION);
+    super(RequestStageType.USER_ANSIBLE_ALLOCATION);
   }
 }

@@ -1,4 +1,4 @@
-export class OpenstackEvent {
+export class OpenStackEvent {
   time: string;
   name: string;
   status: string;

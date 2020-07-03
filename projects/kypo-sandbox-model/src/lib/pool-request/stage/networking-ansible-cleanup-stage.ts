@@ -1,10 +1,10 @@
 import { RequestStageType } from '../../enums/request-stage-type.enum';
 import { CleanupRequestStage } from './cleanup-request-stage';
 
-export class OpenStackCleanupStage extends CleanupRequestStage {
+export class NetworkingAnsibleCleanupStage extends CleanupRequestStage {
   allocationStageId: number;
 
   constructor() {
-    super(RequestStageType.OPEN_STACK_CLEANUP);
+    super(RequestStageType.NETWORKING_ANSIBLE_CLEANUP);
   }
 }
