@@ -1,4 +1,3 @@
-import { KypoPaginatedResource } from 'kypo-common';
 import { RequestStageType } from '../../enums/request-stage-type.enum';
 import { AllocationRequestStage } from './allocation-request-stage';
 
