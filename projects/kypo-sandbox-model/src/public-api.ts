@@ -47,3 +47,8 @@ export { Topology } from './lib/sandbox-instance/topology';
 export { RequestStageState } from './lib/enums/request-stage-state.enum';
 export { RequestStageType } from './lib/enums/request-stage-type.enum';
 export { VMStatus } from './lib/enums/vm-status.enum';
+
+// RESOURCES
+export { Resources } from './lib/resources/resources';
+export { Quotas } from './lib/resources/quotas';
+export { Quota } from './lib/resources/quota';
