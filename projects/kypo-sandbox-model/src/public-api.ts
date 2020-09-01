@@ -52,3 +52,6 @@ export { VMStatus } from './lib/enums/vm-status.enum';
 export { Resources } from './lib/resources/resources';
 export { Quotas } from './lib/resources/quotas';
 export { Quota } from './lib/resources/quota';
+
+// VM IMAGES
+export { VirtualImage } from './lib/vm-images/virtual-image';
