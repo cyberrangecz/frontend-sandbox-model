@@ -17,19 +17,19 @@ export abstract class RequestStage {
     this.type = type;
   }
 
-  isInQueue() {
+  isInQueue(): boolean {
     return this.state === RequestStageState.IN_QUEUE;
   }
 
-  isRunning() {
+  isRunning(): boolean {
     return this.state === RequestStageState.RUNNING;
   }
 
-  hasFailed() {
+  hasFailed(): boolean {
     return this.state === RequestStageState.FAILED;
   }
 
-  hasFinished() {
+  hasFinished(): boolean {
     return this.state === RequestStageState.FINISHED;
   }
 }

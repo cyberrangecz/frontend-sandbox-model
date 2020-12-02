@@ -8,7 +8,7 @@ export class SandboxDefinition {
   url: string;
   rev: string;
 
-  toString() {
+  toString(): string {
     return this.title;
   }
 }
