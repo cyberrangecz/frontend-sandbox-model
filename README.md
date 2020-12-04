@@ -8,5 +8,5 @@ To use the library you need to have installed:
 
 ## Usage
 To use the model in your project follow these steps:
-1. Run `npm install @kypo/sandbox-model`
-2. Import classes like usual, for example `import { SandboxDefinition } from '@kypo/sandbox-model`
+1. Run `npm install @muni-kypo-crp/sandbox-model`
+2. Import classes like usual, for example `import { SandboxDefinition } from '@muni-kypo-crp/sandbox-model`
