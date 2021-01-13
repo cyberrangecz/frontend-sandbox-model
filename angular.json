@@ -10,7 +10,7 @@
       "prefix": "kypo",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/kypo-sandbox-model/tsconfig.lib.json",
             "project": "projects/kypo-sandbox-model/ng-package.json"
