@@ -3,4 +3,5 @@ export class SandboxAllocationUnit {
   id: number;
   poolId: number;
   allocationRequest: AllocationRequest;
+  stages: string[];
 }
