@@ -2,6 +2,8 @@
  * Public API Surface of kypo-sandbox-model
  */
 
+import { from } from 'rxjs';
+
 // DEFINITION
 export { SandboxDefinition } from './lib/definition/sandbox-definition';
 export { SandboxDefinitionRef } from './lib/definition/sandbox-definition-ref';
@@ -11,6 +13,8 @@ export { Pool } from './lib/pool/pool';
 export { Lock } from './lib/pool/lock';
 export { SandboxAllocationUnit } from './lib/pool/sandbox-allocation-unit';
 export { SandboxKeyPair } from './lib/pool/sandbox-key-pair';
+export { CreatedBy } from './lib/pool/created-by';
+export { HardwareUsage } from './lib/pool/hardware-usage';
 
 // POOL REQUEST
 export { Request } from './lib/pool-request/request';

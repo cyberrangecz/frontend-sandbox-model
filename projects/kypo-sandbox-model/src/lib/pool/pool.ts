@@ -1,6 +1,8 @@
 /**
  * Class representing sandbox pool
  */
+import { CreatedBy } from './created-by';
+import { HardwareUsage } from './hardware-usage';
 
 export class Pool {
   private _lockId: number;
@@ -51,4 +53,8 @@ export class Pool {
   isEmpty(): boolean {
     return this._usedSize === 0;
   }
+
+  hardwareUsage: HardwareUsage;
+
+  createdBy: CreatedBy;
 }
