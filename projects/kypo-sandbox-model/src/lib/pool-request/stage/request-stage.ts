@@ -29,6 +29,10 @@ export abstract class RequestStage {
     return this.state === RequestStageState.FAILED;
   }
 
+  hasRetry(): boolean {
+    return this.state === RequestStageState.RETRY;
+  }
+
   hasFinished(): boolean {
     return this.state === RequestStageState.FINISHED;
   }
