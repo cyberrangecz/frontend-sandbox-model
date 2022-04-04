@@ -28,10 +28,10 @@ export { NetworkingAnsibleCleanupStage } from './lib/pool-request/stage/networki
 export { UserAnsibleAllocationStage } from './lib/pool-request/stage/user-ansible-allocation-stage';
 export { UserAnsibleCleanupStage } from './lib/pool-request/stage/user-ansible-cleanup-stage';
 export { CleanupRequestStage } from './lib/pool-request/stage/cleanup-request-stage';
-export { OpenStackAllocationStage } from './lib/pool-request/stage/open-stack-allocation-stage';
-export { OpenStackCleanupStage } from './lib/pool-request/stage/open-stack-cleanup-stage';
-export { OpenStackEvent } from './lib/pool-request/stage/open-stack-event';
-export { OpenStackResource } from './lib/pool-request/stage/open-stack-resource';
+export { TerraformAllocationStage } from './lib/pool-request/stage/terraform-allocation-stage';
+export { TerraformCleanupStage } from './lib/pool-request/stage/terraform-cleanup-stage';
+export { TerraformOutput } from './lib/pool-request/stage/terraform-event';
+export { CloudResource } from './lib/pool-request/stage/cloud-resource';
 export { RequestStage } from './lib/pool-request/stage/request-stage';
 
 // SANDBOX INSTANCE
