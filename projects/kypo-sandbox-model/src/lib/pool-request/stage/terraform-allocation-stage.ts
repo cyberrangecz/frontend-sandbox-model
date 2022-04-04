@@ -2,13 +2,13 @@ import { RequestStageType } from '../../enums/request-stage-type.enum';
 import { AllocationRequestStage } from './allocation-request-stage';
 
 /**
- * Class representing openstack stage
+ * Class representing terraform stage
  */
-export class OpenStackAllocationStage extends AllocationRequestStage {
+export class TerraformAllocationStage extends AllocationRequestStage {
   status: string;
   statusReason: string;
 
   constructor() {
-    super(RequestStageType.OPEN_STACK_ALLOCATION);
+    super(RequestStageType.TERRAFORM_ALLOCATION);
   }
 }

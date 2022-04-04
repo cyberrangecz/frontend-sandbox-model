@@ -2,7 +2,7 @@
  * Class representing sandbox instance resource
  */
 
-export class OpenStackResource {
+export class CloudResource {
   name: string;
   type: string;
   status: string;
