@@ -1,3 +1,4 @@
+14.0.0 Update to Angular 14.
 13.1.0 Replace openstack with terraform
 13.0.0 Update to Angular 13, CI/CD optimization, add retry stage to request stage
 12.0.6 Add created by field to sandbox definition
