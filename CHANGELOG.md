@@ -1,3 +1,11 @@
+### 14.0.0 Update to Angular 14.
+* 2f6952d -- [CI/CD] Update packages.json version based on GitLab tag.
+*   a709dfa -- Merge branch '34-release-v14' into 'master'
+|\  
+| * f2eb2fe -- Resolve "Release v14"
+|/  
+* 7b6324b -- Merge branch '33-update-to-angular-14' into 'master'
+* 6d38260 -- Resolve "Update to Angular 14"
 ### 13.1.0 Replace openstack with terraform
 * 521d685 -- [CI/CD] Update packages.json version based on GitLab tag.
 *   a1ec5a8 -- Merge branch '32-replace-openstack-with-terraform' into 'master'
