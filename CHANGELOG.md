@@ -1,3 +1,7 @@
+### 14.1.0 Adjust Pool model to address backend changes. Add info to allocation unit model about its state.
+* 8d4df38 -- [CI/CD] Update packages.json version based on GitLab tag.
+* b18c369 -- Merge branch '35-optimize-sandbox-agenda' into 'master'
+* 9486dee -- Resolve "Optimize sandbox agenda"
 ### 14.0.0 Update to Angular 14.
 * 2f6952d -- [CI/CD] Update packages.json version based on GitLab tag.
 *   a709dfa -- Merge branch '34-release-v14' into 'master'
