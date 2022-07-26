@@ -2,8 +2,6 @@
  * Public API Surface of kypo-sandbox-model
  */
 
-import { from } from 'rxjs';
-
 // DEFINITION
 export { SandboxDefinition } from './lib/definition/sandbox-definition';
 export { SandboxDefinitionRef } from './lib/definition/sandbox-definition-ref';

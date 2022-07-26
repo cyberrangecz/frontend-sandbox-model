@@ -3,6 +3,7 @@
  */
 import { CreatedBy } from './created-by';
 import { HardwareUsage } from './hardware-usage';
+import { SandboxDefinition } from '../definition/sandbox-definition';
 
 export class Pool {
   private _lockId: number;
@@ -37,7 +38,7 @@ export class Pool {
   }
 
   id: number;
-  definitionId: number;
+  definition: SandboxDefinition;
   lockState: 'locked' | 'unlocked';
 
   usedAndMaxSize: string;
