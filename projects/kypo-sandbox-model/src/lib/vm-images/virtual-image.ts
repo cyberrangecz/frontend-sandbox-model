@@ -1,3 +1,5 @@
+import { OwnerSpecified } from './owner-specified';
+
 export class VirtualImage {
   osDistro: string;
   osType: string;
@@ -13,4 +15,5 @@ export class VirtualImage {
   defaultUser: string;
   updatedAt: Date;
   createdAt: Date;
+  ownerSpecified: OwnerSpecified;
 }
