@@ -1,3 +1,7 @@
+### 14.2.0 Refactor of Resources page. Add information about version and gui access to virtual image. 
+* 1714f7c -- [CI/CD] Update packages.json version based on GitLab tag.
+* 8be80db -- Merge branch '37-refactor-resources-page' into 'master'
+* 448b055 -- Resolve "Refactor resources page"
 ### 14.1.0 Adjust Pool model to address backend changes. Add info to allocation unit model about its state.
 * 8d4df38 -- [CI/CD] Update packages.json version based on GitLab tag.
 * b18c369 -- Merge branch '35-optimize-sandbox-agenda' into 'master'
