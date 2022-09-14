@@ -57,3 +57,4 @@ export { Quota } from './lib/resources/quota';
 
 // VM IMAGES
 export { VirtualImage } from './lib/vm-images/virtual-image';
+export { OwnerSpecified } from './lib/vm-images/owner-specified';
