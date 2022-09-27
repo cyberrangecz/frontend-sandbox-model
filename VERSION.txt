@@ -1,4 +1,5 @@
-14.2.0 Refactor of Resources page. Add information about version and gui access to virtual image. 
+14.3.0 Add sandbox uuid to SandboxAllocationUnit and change id of SandboxInstance to string type.
+14.2.0 Refactor of Resources page. Add information about version and gui access to virtual image.
 14.1.0 Adjust Pool model to address backend changes. Add info to allocation unit model about its state.
 14.0.0 Update to Angular 14.
 13.1.0 Replace openstack with terraform

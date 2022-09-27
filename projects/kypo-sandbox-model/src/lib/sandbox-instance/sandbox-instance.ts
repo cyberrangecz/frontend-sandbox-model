@@ -2,7 +2,7 @@
  * Class representing sandbox instance
  */
 export class SandboxInstance {
-  id: number;
+  id: string;
   allocationUnitId: number;
   lockState: string;
 
