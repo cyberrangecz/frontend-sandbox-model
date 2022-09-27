@@ -3,6 +3,7 @@ import { AllocationRequest } from '../pool-request/allocation-request';
 import { CreatedBy } from './created-by';
 export class SandboxAllocationUnit {
   id: number;
+  sandboxUuid: string;
   poolId: number;
   locked: boolean;
   allocationRequest: AllocationRequest;
