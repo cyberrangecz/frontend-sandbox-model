@@ -1,3 +1,7 @@
+### 14.3.0 Add sandbox uuid to SandboxAllocationUnit and change id of SandboxInstance to string type.
+* e853a28 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 70c94e5 -- Merge branch '38-change-sandbox-id-to-uuid-and-string-type' into 'master'
+* bfb83f9 -- Resolve "Change sandbox id to uuid and string type"
 ### 14.2.0 Refactor of Resources page. Add information about version and gui access to virtual image. 
 * 1714f7c -- [CI/CD] Update packages.json version based on GitLab tag.
 * 8be80db -- Merge branch '37-refactor-resources-page' into 'master'
