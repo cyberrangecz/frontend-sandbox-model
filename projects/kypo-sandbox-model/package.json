@@ -1,6 +1,6 @@
 {
   "name": "@muni-kypo-crp/sandbox-model",
-  "version": "14.2.0",
+  "version": "14.3.0",
   "peerDependencies": {
     "@angular/common": "~13.1.1",
     "@angular/core": "~13.1.1"
