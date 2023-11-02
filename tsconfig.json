@@ -10,7 +10,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
+    "target": "ES2022",
     "lib": [
       "es2018",
       "dom"
@@ -20,7 +20,8 @@
         "dist/kypo-sandbox-model/kypo-sandbox-model",
         "dist/kypo-sandbox-model"
       ]
-    }
+    },
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
