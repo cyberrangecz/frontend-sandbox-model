@@ -1,3 +1,7 @@
+### 15.0.0 Update to Angular 15.
+* 6c7bbb8 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 6d98176 -- Merge branch '39-update-to-angular-15' into 'master'
+* bac9cb1 -- Update to Angular 15
 ### 14.3.0 Add sandbox uuid to SandboxAllocationUnit and change id of SandboxInstance to string type.
 * e853a28 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 70c94e5 -- Merge branch '38-change-sandbox-id-to-uuid-and-string-type' into 'master'
