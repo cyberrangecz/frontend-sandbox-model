@@ -1,3 +1,7 @@
+### 15.1.0 Adjust SandboxAllocationUnit to enable corresponding requests as optional upon creation.
+* a5d765c -- [CI/CD] Update packages.json version based on GitLab tag.
+* f0fd9d7 -- Merge branch '40-update-sandbox-allocation-unit' into 'master'
+* e040e50 -- Adjust SandboxAllocationUnit to enable requests as optional
 ### 15.0.0 Update to Angular 15.
 * 6c7bbb8 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 6d98176 -- Merge branch '39-update-to-angular-15' into 'master'
