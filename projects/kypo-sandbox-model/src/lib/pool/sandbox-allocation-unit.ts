@@ -6,7 +6,7 @@ export class SandboxAllocationUnit {
   sandboxUuid: string;
   poolId: number;
   locked: boolean;
-  allocationRequest: AllocationRequest;
-  cleanupRequest: CleanupRequest;
+  allocationRequest?: AllocationRequest;
+  cleanupRequest?: CleanupRequest;
   createdBy: CreatedBy;
 }
