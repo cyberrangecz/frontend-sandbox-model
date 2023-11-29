@@ -1,3 +1,4 @@
+15.1.0 Adjust SandboxAllocationUnit to enable corresponding requests as optional upon creation.
 15.0.0 Update to Angular 15.
 14.3.0 Add sandbox uuid to SandboxAllocationUnit and change id of SandboxInstance to string type.
 14.2.0 Refactor of Resources page. Add information about version and gui access to virtual image.
