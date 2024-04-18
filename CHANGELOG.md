@@ -1,3 +1,7 @@
+### 15.1.1 Add optional pool and sandbox instance attribute 'comment'.
+* adad354 -- [CI/CD] Update packages.json version based on GitLab tag.
+* f908729 -- Merge branch '41-add-comments-to-sandbox-pools-and-instances' into 'master'
+* 7310451 -- Add optional pool and sandbox instance attribute 'comment'
 ### 15.1.0 Adjust SandboxAllocationUnit to enable corresponding requests as optional upon creation.
 * a5d765c -- [CI/CD] Update packages.json version based on GitLab tag.
 * f0fd9d7 -- Merge branch '40-update-sandbox-allocation-unit' into 'master'
