@@ -10,6 +10,14 @@ export class Pool {
   private _usedSize: number;
   private _maxSize: number;
 
+  id: number;
+  comment?: string;
+  definition: SandboxDefinition;
+  lockState: 'locked' | 'unlocked';
+  usedAndMaxSize: string;
+  hardwareUsage: HardwareUsage;
+  createdBy: CreatedBy;
+
   get maxSize(): number {
     return this._maxSize;
   }
@@ -37,12 +45,6 @@ export class Pool {
     this.lockState = this.isLocked() ? 'locked' : 'unlocked';
   }
 
-  id: number;
-  definition: SandboxDefinition;
-  lockState: 'locked' | 'unlocked';
-
-  usedAndMaxSize: string;
-
   isFull(): boolean {
     return this._usedSize === this._maxSize;
   }
@@ -54,8 +56,4 @@ export class Pool {
   isEmpty(): boolean {
     return this._usedSize === 0;
   }
-
-  hardwareUsage: HardwareUsage;
-
-  createdBy: CreatedBy;
 }
