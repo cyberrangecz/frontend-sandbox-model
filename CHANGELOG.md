@@ -1,3 +1,7 @@
+### 16.0.0 Update to Angular 16.
+* ea3c291 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 49f2b3d -- Merge branch '42-update-to-angular-16' into 'master'
+* 8750200 -- Update to Angular 16
 ### 15.1.1 Add optional pool and sandbox instance attribute 'comment'.
 * adad354 -- [CI/CD] Update packages.json version based on GitLab tag.
 * f908729 -- Merge branch '41-add-comments-to-sandbox-pools-and-instances' into 'master'
