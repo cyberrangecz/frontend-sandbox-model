@@ -1,3 +1,4 @@
+16.0.0 Update to Angular 16.
 15.1.1 Add optional pool and sandbox instance attribute 'comment'.
 15.1.0 Adjust SandboxAllocationUnit to enable corresponding requests as optional upon creation.
 15.0.0 Update to Angular 15.
