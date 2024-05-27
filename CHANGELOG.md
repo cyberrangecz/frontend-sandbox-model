@@ -1,3 +1,7 @@
+### 16.1.1 Add option to make pools private and comment on their allocation units instead of instances.
+* 7ae8b9d -- [CI/CD] Update packages.json version based on GitLab tag.
+* 4523a98 -- Merge branch '43-update-pool-models-for-edition' into 'master'
+* b1e5ca1 -- Add option to make pools private and comment on their allocation units instead of instances
 ### 16.0.0 Update to Angular 16.
 * ea3c291 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 49f2b3d -- Merge branch '42-update-to-angular-16' into 'master'
