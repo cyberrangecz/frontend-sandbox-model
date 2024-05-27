@@ -15,6 +15,7 @@ export class Pool {
   definition: SandboxDefinition;
   lockState: 'locked' | 'unlocked';
   usedAndMaxSize: string;
+  visible = true;
   hardwareUsage: HardwareUsage;
   createdBy: CreatedBy;
 

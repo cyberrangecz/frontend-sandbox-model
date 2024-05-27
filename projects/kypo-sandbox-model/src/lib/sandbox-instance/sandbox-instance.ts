@@ -5,7 +5,6 @@ export class SandboxInstance {
   id: string;
   allocationUnitId: number;
   lockState: string;
-  comment?: string;
 
   private _lockId: number;
 

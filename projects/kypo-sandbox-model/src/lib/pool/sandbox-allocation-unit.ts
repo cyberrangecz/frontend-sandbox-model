@@ -9,4 +9,5 @@ export class SandboxAllocationUnit {
   allocationRequest?: AllocationRequest;
   cleanupRequest?: CleanupRequest;
   createdBy: CreatedBy;
+  comment?: string;
 }
