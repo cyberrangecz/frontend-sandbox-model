@@ -16,6 +16,7 @@ export class Pool {
   lockState: 'locked' | 'unlocked';
   usedAndMaxSize: string;
   visible = true;
+  notifyBuild: boolean;
   hardwareUsage: HardwareUsage;
   createdBy: CreatedBy;
 
