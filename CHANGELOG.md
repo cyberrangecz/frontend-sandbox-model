@@ -1,3 +1,7 @@
+### 16.1.2 Enable email notifications for pools upon building their sandboxes.
+* ff6dae8 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 9d669e0 -- Merge branch '44-add-email-notifications-to-pools' into 'master'
+* dc927ee -- Enable email notifications for pools
 ### 16.1.1 Add option to make pools private and comment on their allocation units instead of instances.
 * 7ae8b9d -- [CI/CD] Update packages.json version based on GitLab tag.
 * 4523a98 -- Merge branch '43-update-pool-models-for-edition' into 'master'
