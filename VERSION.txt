@@ -1,3 +1,4 @@
+18.0.0 Update to Angular 18.
 16.1.2 Enable email notifications for pools upon building their sandboxes.
 16.1.1 Add option to make pools private and comment on their allocation units instead of instances.
 16.0.0 Update to Angular 16.
