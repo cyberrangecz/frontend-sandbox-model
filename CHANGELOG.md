@@ -1,3 +1,13 @@
+### 18.0.0 Update to Angular 18
+* 56c6548 -- [CI/CD] Update packages.json version based on GitLab tag.
+*   3199de3 -- Merge branch 'develop' into 'master'
+|\  
+| * d490f19 -- Update pipeline
+* | 04e33c7 -- Merge branch 'develop' into 'master'
+|/  
+* 5442bf8 -- Merge branch '45-update-to-angular-18' into 'develop'
+* 638195c -- Update VERSION.txt
+* c449ef5 -- Update to Angular 18
 ### 16.1.2 Enable email notifications for pools upon building their sandboxes.
 * ff6dae8 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 9d669e0 -- Merge branch '44-add-email-notifications-to-pools' into 'master'
