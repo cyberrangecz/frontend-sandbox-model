@@ -11,14 +11,11 @@ on:
       - master
   workflow_dispatch:
 
-container_config: &cypress_container
-  image: cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1
-
 jobs:
   codeStyle:
     runs-on: ubuntu-latest
-    container:
-      <<: *cypress_container
+    container: &cypress_container
+      image: cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -36,8 +33,7 @@ jobs:
 
   buildLibrary:
     runs-on: ubuntu-latest
-    container:
-      <<: *cypress_container
+    container: *cypress_container
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -61,8 +57,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    container:
-      <<: *cypress_container
+    container: *cypress_container
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
