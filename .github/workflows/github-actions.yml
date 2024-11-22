@@ -10,15 +10,17 @@ on:
     branches:
       - master
   workflow_dispatch:
-
-env:
-  CONTAINER_IMAGE: cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1
+    inputs:
+      container_image:
+        description: "Container image"
+        default: "cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1"
+        required: true
 
 jobs:
   codeStyle:
     runs-on: ubuntu-latest
     container:
-      image: ${{ env.CONTAINER_IMAGE }}
+      image: ${{ inputs.container_image }}
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -37,7 +39,7 @@ jobs:
   buildLibrary:
     runs-on: ubuntu-latest
     container:
-      image: ${{ env.CONTAINER_IMAGE }}
+      image: ${{ inputs.container_image }}
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -62,7 +64,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     container:
-      image: ${{ env.CONTAINER_IMAGE }}
+      image: ${{ inputs.container_image }}
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
