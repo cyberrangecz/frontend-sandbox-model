@@ -13,23 +13,20 @@ on:
 
 env:
   VERSION: v18.0.0
-  container_image: "cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1"
+  #container_image: "cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1"
 
 jobs:
   pass_variables:
     runs-on: ubuntu-latest
     outputs:
       VERSION: ${{ steps.set_version.outputs.VERSION }}
-      container_image: ${{ steps.set_image.outputs.container_image }}
     steps:
       - id: set_version
         run: echo "VERSION=${{ env.VERSION }}" >> $GITHUB_OUTPUT
-      - id: set_image
-        run: echo "container_image=${{ env.container_image }}" >> $GITHUB_OUTPUT
   codeStyle:
     runs-on: ubuntu-latest
     container:
-      image: ${{ needs.pass_variables.outputs.container_image }}
+      image: ${{ vars.container_image }}
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -49,7 +46,7 @@ jobs:
     needs: codeStyle
     runs-on: ubuntu-latest
     container:
-      image: ${{ needs.pass_variables.outputs.container_image }}
+      image: ${{ vars.container_image }}
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -80,7 +77,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     container:
-      image: ${{ needs.pass_variables.outputs.container_image }}
+      image: ${{ vars.container_image }}
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
