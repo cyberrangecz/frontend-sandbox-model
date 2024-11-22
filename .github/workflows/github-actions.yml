@@ -17,7 +17,7 @@ on:
         required: true
       version:
         description: "Application version"
-        default: "v18.0.0"
+        default: v18.0.0
         required: true
 
 jobs:
