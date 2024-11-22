@@ -15,6 +15,10 @@ on:
         description: "Container image"
         default: "cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1"
         required: true
+      version:
+        description: "Application version"
+        default: "v18.0.0"
+        required: true
 
 jobs:
   codeStyle:
@@ -37,6 +41,7 @@ jobs:
     if: github.ref != 'refs/heads/master'
 
   buildLibrary:
+    needs: codeStyle
     runs-on: ubuntu-latest
     container:
       image: ${{ inputs.container_image }}
@@ -60,6 +65,12 @@ jobs:
           path: ./dist
           retention-days: 1
     if: github.ref != 'refs/heads/master'
+
+  create_tag:
+    uses: cyberrangecz/actions-templates/.github/workflows/tag_template.yml@master
+    #uses: ./.github/workflows/tag_template.yml
+    with:
+      VERSION: ${{ inputs.version }}
 
   deploy:
     runs-on: ubuntu-latest
