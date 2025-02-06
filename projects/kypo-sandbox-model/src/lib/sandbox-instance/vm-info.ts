@@ -1,4 +1,5 @@
 import { VMStatus } from '../enums/vm-status.enum';
+
 export class VMInfo {
   name: string;
   id: string;
