@@ -16,9 +16,9 @@
             "dom"
         ],
         "paths": {
-            "kypo-sandbox-model": [
-                "dist/kypo-sandbox-model/kypo-sandbox-model",
-                "dist/kypo-sandbox-model"
+            "sandbox-model": [
+                "dist/sandbox-model/sandbox-model",
+                "dist/sandbox-model"
             ]
         },
         "useDefineForClassFields": false

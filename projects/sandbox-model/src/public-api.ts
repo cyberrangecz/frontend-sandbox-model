@@ -1,5 +1,5 @@
 /*
- * Public API Surface of kypo-sandbox-model
+ * Public API Surface of sandbox-model
  */
 
 // DEFINITION

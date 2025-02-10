@@ -3,38 +3,38 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "kypo-sandbox-model": {
+        "sandbox-model": {
             "projectType": "library",
-            "root": "projects/kypo-sandbox-model",
-            "sourceRoot": "projects/kypo-sandbox-model/src",
-            "prefix": "kypo",
+            "root": "projects/sandbox-model",
+            "sourceRoot": "projects/sandbox-model/src",
+            "prefix": "crczp",
             "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-angular:ng-packagr",
                     "options": {
-                        "tsConfig": "projects/kypo-sandbox-model/tsconfig.lib.json",
-                        "project": "projects/kypo-sandbox-model/ng-package.json"
+                        "tsConfig": "projects/sandbox-model/tsconfig.lib.json",
+                        "project": "projects/sandbox-model/ng-package.json"
                     },
                     "configurations": {
                         "production": {
-                            "tsConfig": "projects/kypo-sandbox-model/tsconfig.lib.prod.json"
+                            "tsConfig": "projects/sandbox-model/tsconfig.lib.prod.json"
                         }
                     }
                 },
                 "test": {
                     "builder": "@angular-devkit/build-angular:karma",
                     "options": {
-                        "main": "projects/kypo-sandbox-model/src/test.ts",
-                        "tsConfig": "projects/kypo-sandbox-model/tsconfig.spec.json",
-                        "karmaConfig": "projects/kypo-sandbox-model/karma.conf.js"
+                        "main": "projects/sandbox-model/src/test.ts",
+                        "tsConfig": "projects/sandbox-model/tsconfig.spec.json",
+                        "karmaConfig": "projects/sandbox-model/karma.conf.js"
                     }
                 },
                 "lint": {
                     "builder": "@angular-eslint/builder:lint",
                     "options": {
                         "lintFilePatterns": [
-                            "projects/kypo-sandbox-model/**/*.ts",
-                            "projects/kypo-sandbox-model/**/*.component.html"
+                            "projects/sandbox-model/**/*.ts",
+                            "projects/sandbox-model/**/*.component.html"
                         ]
                     }
                 }

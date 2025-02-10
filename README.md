@@ -1,12 +1,6 @@
-# KYPO Sandbox Model
+# CyberRangeᶜᶻ Platform Sandbox Model
 
-This library contains frontend model of [KYPO Sandbox service](https://gitlab.ics.muni.cz/kypo-crp/backend-python/kypo-sandbox-service).
-
-## Prerequisites
-
-To use the library you need to have installed:
-
-* NPM with access [KYPO registry](https://projects.ics.muni.cz/projects/kbase/knowledgebase/articles/153)
+This library contains frontend model of [Sandbox service](https://github.com/cyberrangecz/backend-sandbox-service).
 
 ## Usage
 
