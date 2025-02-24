@@ -3,7 +3,7 @@
  */
 
 export class CloudResource {
-  name: string;
-  type: string;
-  status: string;
+    name: string;
+    type: string;
+    status: string;
 }

@@ -1,3 +1,3 @@
 export class TopologyHost {
-  name: string;
+    name: string;
 }

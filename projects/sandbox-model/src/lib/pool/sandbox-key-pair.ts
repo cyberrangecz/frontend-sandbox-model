@@ -1,4 +1,4 @@
 export class SandboxKeyPair {
-  private: string;
-  public: string;
+    private: string;
+    public: string;
 }

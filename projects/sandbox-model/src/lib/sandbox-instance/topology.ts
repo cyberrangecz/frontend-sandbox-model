@@ -5,9 +5,9 @@ import { TopologyRouter } from './sandbox-topology-elements/topology-router';
 import { TopologySwitch } from './sandbox-topology-elements/topology-switch';
 
 export class Topology {
-  hosts: TopologyHost[];
-  routers: TopologyRouter[];
-  switches: TopologySwitch[];
-  links: TopologyLink[];
-  ports: TopologyPort[];
+    hosts: TopologyHost[];
+    routers: TopologyRouter[];
+    switches: TopologySwitch[];
+    links: TopologyLink[];
+    ports: TopologyPort[];
 }

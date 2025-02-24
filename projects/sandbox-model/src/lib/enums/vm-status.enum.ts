@@ -1,5 +1,5 @@
 export enum VMStatus {
-  ACTIVE = 'ACTIVE',
-  REBOOT = 'REBOOT',
-  SUSPENDED = 'SUSPENDED',
+    ACTIVE = 'ACTIVE',
+    REBOOT = 'REBOOT',
+    SUSPENDED = 'SUSPENDED',
 }

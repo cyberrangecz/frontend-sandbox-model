@@ -1,3 +1,3 @@
 export class VMConsole {
-  url: string;
+    url: string;
 }

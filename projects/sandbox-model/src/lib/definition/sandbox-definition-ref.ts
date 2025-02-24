@@ -1,3 +1,3 @@
 export class SandboxDefinitionRef {
-  name: string;
+    name: string;
 }

@@ -21,14 +21,6 @@
                         }
                     }
                 },
-                "test": {
-                    "builder": "@angular-devkit/build-angular:karma",
-                    "options": {
-                        "main": "projects/sandbox-model/src/test.ts",
-                        "tsConfig": "projects/sandbox-model/tsconfig.spec.json",
-                        "karmaConfig": "projects/sandbox-model/karma.conf.js"
-                    }
-                },
                 "lint": {
                     "builder": "@angular-eslint/builder:lint",
                     "options": {

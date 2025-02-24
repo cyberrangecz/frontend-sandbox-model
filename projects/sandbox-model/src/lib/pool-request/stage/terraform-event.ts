@@ -1,3 +1,3 @@
 export class TerraformOutput {
-  content: string;
+    content: string;
 }

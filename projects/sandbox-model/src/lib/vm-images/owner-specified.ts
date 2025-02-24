@@ -1,4 +1,4 @@
 export class OwnerSpecified {
-  version: string;
-  guiAccess: boolean;
+    version: string;
+    guiAccess: boolean;
 }

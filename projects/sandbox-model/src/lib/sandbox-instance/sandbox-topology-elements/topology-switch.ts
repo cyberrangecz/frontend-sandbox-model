@@ -1,4 +1,4 @@
 export class TopologySwitch {
-  name: string;
-  cidr: string;
+    name: string;
+    cidr: string;
 }

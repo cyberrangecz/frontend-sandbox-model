@@ -1,4 +1,4 @@
 export class TopologyLink {
-  portA: string;
-  portB: string;
+    portA: string;
+    portB: string;
 }

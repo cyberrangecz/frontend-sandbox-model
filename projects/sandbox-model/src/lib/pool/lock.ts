@@ -1,4 +1,4 @@
 export class Lock {
-  id: number;
-  poolId: number;
+    id: number;
+    poolId: number;
 }

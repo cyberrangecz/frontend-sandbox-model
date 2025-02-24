@@ -5,10 +5,10 @@ import { AllocationRequestStage } from './allocation-request-stage';
  * Class representing terraform stage
  */
 export class TerraformAllocationStage extends AllocationRequestStage {
-  status: string;
-  statusReason: string;
+    status: string;
+    statusReason: string;
 
-  constructor() {
-    super(RequestStageType.TERRAFORM_ALLOCATION);
-  }
+    constructor() {
+        super(RequestStageType.TERRAFORM_ALLOCATION);
+    }
 }
